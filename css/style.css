@@ -1,0 +1,208 @@
+/* body
+{
+    margin: 0;
+    padding: 0;
+    font-family: "sans-serif";
+    background-image: url("image.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.Login
+{
+   width: 400px;
+   box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+   background: #fff;
+   padding: 20px;
+   margin: 8% auto 0;
+   text-align: center;
+
+}
+.Login h1 
+{
+    color: blue;
+    margin-bottom: 30px;
+
+}
+.input-box
+
+{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline:
+}
+
+button
+{
+    color: black;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border:none;
+    cursor: pointer;
+}
+
+.signup-btn
+{
+    background-color: #1c8adb;
+}
+.google-btn
+{
+    background-color: #21afde;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+} */
+/* TEAM NAME-CUSAS
+    
+    INDEX
+        -LOGIN PAGE
+ */
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,span,p,ul,ol,a, li
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+:root
+{
+    --primarycolor: rgba(14, 190, 167, 0.944);
+    
+}
+/* login page starts */
+.backGround
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/background.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.form-box
+{
+    width: 90%;
+    max-width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgba(255, 255, 255, 0.177);
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 30px;
+}
+.form-box h2
+{
+    color: var(--primarycolor);
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    position: relative;
+}
+.input-field
+{
+    margin: 15px 0;
+    background-color:rgba(255, 255, 255, 0.177);
+    align-items: center;
+    display: flex;
+    max-height: 65px;
+    transition: max-height 500ms;
+    overflow: hidden;
+}
+input
+{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+.input-field i
+{
+    margin-left: 15px;
+
+}
+form p{
+    text-align: left;
+    font-size: 16px;
+}
+form p a
+{
+    text-decoration: none;
+    font-size: 16px;
+}
+.buttonGroup
+{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.buttonGroup button
+{
+    flex-basis: 48%;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--primarycolor);
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: black;
+    transition: background 1s;
+    margin-top: 15px;
+}
+.buttonGroup button.disable
+{
+    background-color: #b8f0e2;
+
+}
+/* home page starts */
+header
+{
+    background-color: #0f2f44;
+    padding: 18px 0;
+    color: white;
+    text-align: center;
+}
+/* home page ends */
+nav .logo img{
+    margin-top: 20px;
+    max-width: 100%;
+    height: 75px;
+}
+nav .menu ul{
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block;
+}
+
+nav .menu ul li a
+{
+   padding: 41px 18px;
+   display: inline-block;
+   font-weight: 500;
+   color: #0f2f44;
+   font-size: 16px;
+   transition: 500ms;
+
+}
